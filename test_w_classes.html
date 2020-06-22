@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabelle</title>
+    <style>
+        .pause {
+            height: 10px;
+        }
+        .lecture {
+            height: 50px;
+        }
+        .anw {
+            height: 50px; 
+            color: #fff;
+            background-color: #005349; 
+        }
+        .lab {
+            height: 50px; 
+            color: #fff;
+            background-color: #8a307f; 
+        }
+        .grdl {
+            height: 50px; 
+            color: #fff;
+            background-color: #00709b; 
+        }
+        
+        
+        /* overwrite style.css */
+        table {
+            text-align: center;
+            font-size: small;
+        }       
+        th, td {
+            width: 100px;
+            border-right: 6px solid #fff;
+            border-left: 6px solid #fff;      
+            text-align: center;        
+        }
+        </style>
+</head>
+<body>
+
+<br>
+
+<table style="width: 703px;" cellspacing="0" cellpadding="0" border="1">
+<thead>
+    <tr class="pause">
+        <th  style="background: #fff;"></th>
+        <th  colspan="2">Mo</th>
+        <th  colspan="2"> Di</th>
+        <th >Mi</th>
+        <th >Do</th>
+    </tr>
+</thead>
+<tbody>    
+    <tr class="lecture">
+        <td text-align: center;">08:00<br />-<br />08:45</td>
+        <td  colspan="2"></td>
+        <td  colspan="2"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="pause">
+        <td ></td>
+        <td  colspan="2"></td>
+        <td  colspan="2"></td>
+        <td ></td>
+        <td ></td>
+    </tr>
+    <tr class="lecture">
+        <td text-align: center;">08:45<br />-<br />09:30</td>
+        <td class="anw" colspan="2" rowspan="3"><em>08:45-10:15<br /></em>Identifikation<br />dynamischer <br />Systeme</td>
+        <td  colspan="2"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="pause">
+        <td></t>
+        <td  colspan="2"></td>
+        <td ></td>
+        <td ></td>
+    </tr>
+    <tr class="lecture">
+        <td text-align: center;">09:45<br />-<br />10:30</td>
+        <td class="anw" colspan="2" rowspan="3"><em>09:45-11:15<br /></em>Regelung in der<br /> elektrischen <br />Energieversorgung</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="pause">
+        <td></t>
+        <td  colspan="2"></td>
+        <td ></td>
+        <td ></td>
+    </tr>
+    <tr class="lecture">
+        <td text-align: center;">10:30<br />-<br />11:15</td>
+        <td class="anw" colspan="2" rowspan="3"> <em>10:30-12:00<br /></em>Identifikation<br />dynamischer <br />Systeme</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="pause">
+        <td ></td>
+        <td  colspan="2"></td>
+        <td ></td>
+        <td ></td>
+    </tr>
+    <tr class="lecture">
+        <td text-align: center;">11:30<br />-<br />12:15</td>
+        <td class="anw" colspan="2" rowspan="3"><em>11:30-13:00<br /></em>Regelung in der<br /> elektrischen Energieversorgung</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="pause">
+        <td></t>
+        <td  colspan="2"></td>
+        <td ></td>
+        <td ></td>
+    </tr>
+    <tr class="lecture">
+        <td text-align: center;">12:15<br />-<br />13:00</td>
+        <td  colspan="2"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="pause">
+        <td></t>
+        <td  colspan="2"></td>
+        <td  colspan="2"></td>
+        <td ></td>
+        <td ></td>
+    </tr>
+    <tr class="lecture">
+        <td text-align: center;">13:15<br />-<br />14:00</td>
+        <td class="grdl" rowspan="2"><em>13:15-14:45<br /></em>Erweiterte Methoden der Regelungs-technik</td>
+        <td text-align: center;"></td>
+        <td  colspan="2"></td>
+        <td class="grdl" rowspan="2"><em>13:15-14:45<br /></em>Erweiterte Methoden der Regelungs-technik</td>
+        <td text-align: center;"></td>
+    </tr>
+    <tr style="height: 39px;">
+        <td style="width: 100px; height: 39px; text-align: center;">14:00<br />-<br />14:45</td>
+        <td class="lab" rowspan="5"> <em>14:00<br /></em>Projektseminar<br />Schwebende<br />Kugel<em><br /></em></td>
+        <td class="lab" rowspan="5"><em>14:00<br /></em>Regelungs-technisches Praktikum I</td>
+        <td style="width: 100px; height: 39px;"></td>
+        <td style="width: 100px; height: 39px;"></td>
+    </tr>
+    <tr class="pause">
+        <td></t>
+        <td></t>
+        <td ></td>
+        <td ></td>
+        <td ></td>
+    </tr>
+        <tr class="lecture">
+        <td text-align: center;">15:00<br />-<br />15:45</td>
+        <td></td>
+        <td class="anw" rowspan="2"><em>15:00-16:30</em><br />Fahrzeug-<br />systemtechnik</td>
+        <td class="anw" rowspan="2"><em>15:00-16:30</em><br />Fahrer-<br />assistenz-<br />systeme</td>
+        <td class="grdl" rowspan="2"><em>15:00-16:30<br /></em>Systemics<em>  <br /></em></td>
+    </tr>
+    <tr class="lecture">
+        <td text-align: center;">15:45<br />-<br />16:30</td>
+        <td></td>
+        </tr>
+    <tr class="pause">
+        <td></t>
+        <td ></td>
+        <td ></td>
+        <td ></td>
+        <td ></td>        
+    </tr>
+    <tr class="lecture">
+        <td text-align: center;">16:45<br />-<br />17:30</td>
+        <td class="anw" rowspan="2"><em>16:45-18:15</em><br />Fahrzeug-<br />systemtechnik</td>
+        <td></td>
+        <td  colspan="2"></td>
+        <td class="anw" rowspan="2"><em>16:45-18:15</em><br />Fahrer<br />assistenz-<br />systeme </td>
+        <td class="grdl" rowspan="2"><em>16:45-18:15</em><br />Systemics</td>
+    </tr>
+        <tr class="lecture">
+        <td text-align: center;">17:30<br />-<br />18:15</td>
+        <td></td>
+        <td  colspan="2"></td>
+    </tr>
+    <tr class="pause">
+        <td ></td>
+        <td  colspan="2"></td>
+        <td  colspan="2"></td>
+        <td ></td>
+        <td ></td>
+    </tr>
+    <tr class="lecture">
+        <td text-align: center;">18:30<br />-<br />19:15</td>
+        <td class="grdl" colspan="2" rowspan="2"><em>18:30-20:00</em><br />Elektromagnetische <br />Vertr&auml;glichkeit</td>
+        <td  colspan="2"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="lecture">
+        <td text-align: center;">19:15<br />-<br />20:00</td>
+        <td  colspan="2"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>  
+</body>
+</html>
+
+    
